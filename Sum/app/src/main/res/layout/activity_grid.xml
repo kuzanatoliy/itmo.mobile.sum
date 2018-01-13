@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.kuzmiankou.sum.Grid"
+    android:columnCount="2"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_gravity="top">
+
+    <TextView
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choise food"/>
+
+    <TextView
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="With yourself?"/>
+
+    <Button
+        android:layout_column="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"/>
+
+    <CheckBox
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vopper"/>
+
+    <CheckBox
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potato"/>
+
+    <CheckBox
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pepsi/Fanta/Sprite"/>
+
+    <CheckBox
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Souse"/>
+
+    <CheckBox
+        android:layout_column="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dessert"/>
+
+</GridLayout>
